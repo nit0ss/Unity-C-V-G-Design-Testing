@@ -1,0 +1,427 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.19f1 (c9714fde33b6) revision 13201743'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'es' Physical Memory: 16217 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/nito/Documents/GitHub/ADV_Unity_CS/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59906
+Successfully changed project path to: C:/Users/nito/Documents/GitHub/ADV_Unity_CS/My project
+C:/Users/nito/Documents/GitHub/ADV_Unity_CS/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17444] Host "[IP] 192.168.1.128 [Port] 0 [Flags] 2 [Guid] 1434799847 [EditorId] 1434799847 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KE3U178) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17444] Host "[IP] 192.168.1.128 [Port] 0 [Flags] 2 [Guid] 1434799847 [EditorId] 1434799847 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KE3U178) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 154.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.19f1 (c9714fde33b6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nito/Documents/GitHub/ADV_Unity_CS/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8038 MB
+    Driver:   31.0.15.2802
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006857 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 86.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.617 seconds
+Domain Reload Profiling:
+	ReloadAssembly (618ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (425ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (97ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (258ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006946 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\nito\Documents\GitHub\ADV_Unity_CS\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\nito\Documents\GitHub\ADV_Unity_CS\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 90.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.085 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1086ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (895ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (218ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (476ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4706 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.7 MB). Loaded Objects now: 5159.
+Memory consumption went from 189.1 MB to 188.3 MB.
+Total: 4.678800 ms (FindLiveObjects: 0.585300 ms CreateObjectMapping: 0.476700 ms MarkObjects: 3.178000 ms  DeleteObjects: 0.437000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3414.275020 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eecc253734895facb66926253515a97') in 0.058600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.757702 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.005991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.416521 seconds.
+  path: Assets/chest
+  artifactKey: Guid(a5e917041f8fa1840a97a34030cb7b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chest using Guid(a5e917041f8fa1840a97a34030cb7b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91a0b9950f6701428409000fc89e216') in 0.004719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.889738 seconds.
+  path: Assets/chest/source
+  artifactKey: Guid(bb2a0e2ef655c7443942a3764add7b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chest/source using Guid(bb2a0e2ef655c7443942a3764add7b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403a579d3c8cc3feb1963abff3208233') in 0.012101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.550374 seconds.
+  path: Assets/chest/source/model
+  artifactKey: Guid(a145557dca59a9a4e8bab3d82860bec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chest/source/model using Guid(a145557dca59a9a4e8bab3d82860bec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6e92a730cde44719e248ead87340a7') in 0.005113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057314 seconds.
+  path: Assets/chest/source/model/Chest.fbx
+  artifactKey: Guid(f0008ee9b2639a842a5123f3d9aa8136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chest/source/model/Chest.fbx using Guid(f0008ee9b2639a842a5123f3d9aa8136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b31709295b1156d90d2a3e4ec6838e') in 1.333007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 382.415659 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '695e0d66680d0177240e33b193379c8c') in 0.145627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Settings/URP-Performant-Renderer.asset
+  artifactKey: Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/URP-Performant-Renderer.asset using Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3fcfc4ffa97299f0967b94e7b27188c1') in 0.015923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/chest/source/model/textures/M_Chest_Wood_albedo.jpg
+  artifactKey: Guid(51bf739b3440c794a881793133bd9386) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/chest/source/model/textures/M_Chest_Wood_albedo.jpg using Guid(51bf739b3440c794a881793133bd9386) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5bf9cc39b89eb9acd5279bd86d797e46') in 0.055390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/chest/textures/M_Chest_Wood_normal.png
+  artifactKey: Guid(743771e767ef1cc468b31a1fb9108dab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/chest/textures/M_Chest_Wood_normal.png using Guid(743771e767ef1cc468b31a1fb9108dab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '021607e8563cd0f06bd94efb38823f09') in 0.018919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Settings/URP-Balanced.asset
+  artifactKey: Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/URP-Balanced.asset using Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e31afc6cfa903f4d8aadf09a4470dbb') in 0.029885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/chest/textures/M_Chest_Reinforcment_albedo.jpeg
+  artifactKey: Guid(10e2336007ec12049b3d3b91fd98f2f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/chest/textures/M_Chest_Reinforcment_albedo.jpeg using Guid(10e2336007ec12049b3d3b91fd98f2f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '551fc97f5940ff9078a644def5ceebb7') in 0.015646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/chest/textures/M_Chest_Wood_metallic.jpeg
+  artifactKey: Guid(19ab97d7a630ac2419d4448e8d394365) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/chest/textures/M_Chest_Wood_metallic.jpeg using Guid(19ab97d7a630ac2419d4448e8d394365) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8190a6aa7a64f67156a1dae71938069d') in 0.015231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/chest/source/model/textures/M_Chest_Reinforcment_roughness.jpg
+  artifactKey: Guid(c9176a44d1b443f4b8a8300578183528) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/chest/source/model/textures/M_Chest_Reinforcment_roughness.jpg using Guid(c9176a44d1b443f4b8a8300578183528) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af7c27874bed02f8eaa862292739026c') in 0.014517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/chest/source/model/textures/M_Chest_Wood_metallic.jpg
+  artifactKey: Guid(09964279d3dc2b244b0dffac6b8e85f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/chest/source/model/textures/M_Chest_Wood_metallic.jpg using Guid(09964279d3dc2b244b0dffac6b8e85f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75eb914b48da4f127a8d1ad18dbbf40c') in 0.014160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '80eded709478cf429749afdab6ace0df') in 0.012133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/chest/textures/M_Chest_Reinforcment_AO.jpeg
+  artifactKey: Guid(ffe9a82ab20b91b448f4f06b600de8e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/chest/textures/M_Chest_Reinforcment_AO.jpeg using Guid(ffe9a82ab20b91b448f4f06b600de8e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cfce6360e201d0b2181d8cf87a378e6c') in 0.022476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/chest/source/model/textures/M_Chest_Reinforcment_AO.jpg
+  artifactKey: Guid(1c430988575e145459ec0bfdec61ae70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/chest/source/model/textures/M_Chest_Reinforcment_AO.jpg using Guid(1c430988575e145459ec0bfdec61ae70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41c1dd08d82ca467275eadb1b7d15856') in 0.014985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '428f5efe62c2264a56cf6da12509ce9b') in 0.008823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/chest/source/model/textures/M_Chest_Reinforcment_metallic.jpg
+  artifactKey: Guid(695d723ae891336419e5770b9564c261) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/chest/source/model/textures/M_Chest_Reinforcment_metallic.jpg using Guid(695d723ae891336419e5770b9564c261) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3a3a8c945a06722dc8fa4650329cd8f') in 0.014820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/chest/source/model/textures/M_Chest_Wood_normal.png
+  artifactKey: Guid(342f9933ce5258c40bc42b836d9b12e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/chest/source/model/textures/M_Chest_Wood_normal.png using Guid(342f9933ce5258c40bc42b836d9b12e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a836e3583d004f9c1a1efb614d5783c7') in 0.015492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/chest/textures/M_Chest_Reinforcment_roughness.jpeg
+  artifactKey: Guid(574fc4b802a8c7749ab2c00c25d04175) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/chest/textures/M_Chest_Reinforcment_roughness.jpeg using Guid(574fc4b802a8c7749ab2c00c25d04175) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6cfe4c93fecc70e1e31bcd489f64415f') in 0.016536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/chest/source/model/Chest.fbx
+  artifactKey: Guid(f0008ee9b2639a842a5123f3d9aa8136) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/chest/source/model/Chest.fbx using Guid(f0008ee9b2639a842a5123f3d9aa8136) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '772820c8f46b2970806cfb2a2ecb7800') in 0.048434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.763852 seconds.
+  path: Assets/Settings/URP-Performant.asset
+  artifactKey: Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Performant.asset using Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487870a79fa3f7c27236b295a642ea4f') in 0.006906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/chest/source/model/textures/M_Chest_Reinforcment_normal.png
+  artifactKey: Guid(158b52d9928864e44bca47872fbc1999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chest/source/model/textures/M_Chest_Reinforcment_normal.png using Guid(158b52d9928864e44bca47872fbc1999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65fbc8970c3eec2fefdbc08e3e74673b') in 0.017680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/chest/textures/M_Chest_Reinforcment_normal.png
+  artifactKey: Guid(4c941cb45c11c494186e2a635b01fdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chest/textures/M_Chest_Reinforcment_normal.png using Guid(4c941cb45c11c494186e2a635b01fdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ef8b8a547faa03b76dd38265212edb') in 0.010751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Settings/URP-Performant-Renderer.asset
+  artifactKey: Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Performant-Renderer.asset using Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1851fb5d14fdf4fbaae77cf6351644c') in 0.006502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.315824 seconds.
+  path: Assets/chest/source/model/textures/M_Chest_Reinforcment_AO.jpg
+  artifactKey: Guid(1c430988575e145459ec0bfdec61ae70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chest/source/model/textures/M_Chest_Reinforcment_AO.jpg using Guid(1c430988575e145459ec0bfdec61ae70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2908ebebc996292d6981f22a1a5272') in 0.011598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/chest/source/model/textures/M_Chest_Wood_AO.jpg
+  artifactKey: Guid(6c25fa551ac4fd64a94c130322cc05e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chest/source/model/textures/M_Chest_Wood_AO.jpg using Guid(6c25fa551ac4fd64a94c130322cc05e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24b67fface7a12398b839c5834990e4') in 0.012037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/chest/source/model/textures/M_Chest_Reinforcment_roughness.jpg
+  artifactKey: Guid(c9176a44d1b443f4b8a8300578183528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chest/source/model/textures/M_Chest_Reinforcment_roughness.jpg using Guid(c9176a44d1b443f4b8a8300578183528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b055e0f391f36bc4253f4b68db109e87') in 0.013490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/chest/source/model/textures/M_Chest_Reinforcment_metallic.jpg
+  artifactKey: Guid(695d723ae891336419e5770b9564c261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chest/source/model/textures/M_Chest_Reinforcment_metallic.jpg using Guid(695d723ae891336419e5770b9564c261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731e56b261f376fc5e5c6585d9ed0a90') in 0.012157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/chest/source/model/textures/M_Chest_Wood_metallic.jpg
+  artifactKey: Guid(09964279d3dc2b244b0dffac6b8e85f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chest/source/model/textures/M_Chest_Wood_metallic.jpg using Guid(09964279d3dc2b244b0dffac6b8e85f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469ed75959a3e83fca0e6ba060cdf0f6') in 0.014810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/chest/source/model/textures/M_Chest_Wood_roughness.jpg
+  artifactKey: Guid(1a70b1b4777500940b419e54618942e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chest/source/model/textures/M_Chest_Wood_roughness.jpg using Guid(1a70b1b4777500940b419e54618942e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef888b338e9281372ddca223e019250') in 0.010703 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5259.
+Memory consumption went from 96.1 MB to 95.4 MB.
+Total: 5.829700 ms (FindLiveObjects: 0.511100 ms CreateObjectMapping: 0.373400 ms MarkObjects: 4.523300 ms  DeleteObjects: 0.419900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 58.962191 seconds.
+  path: Assets/chest/source/model/Materials/M_Chest_Wood_albedo.mat
+  artifactKey: Guid(c791bd77d038c7147a682d2e24919547) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/chest/source/model/Materials/M_Chest_Wood_albedo.mat using Guid(c791bd77d038c7147a682d2e24919547) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8fea6f1484b93282a32125935e64e6db') in 0.008327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.199216 seconds.
+  path: Assets/chest/textures/M_Chest_Reinforcment_AO.jpeg
+  artifactKey: Guid(ffe9a82ab20b91b448f4f06b600de8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chest/textures/M_Chest_Reinforcment_AO.jpeg using Guid(ffe9a82ab20b91b448f4f06b600de8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b106415ea40d52a8df84b467c1fe55db') in 0.021166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/chest/textures/M_Chest_Reinforcment_roughness.jpeg
+  artifactKey: Guid(574fc4b802a8c7749ab2c00c25d04175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chest/textures/M_Chest_Reinforcment_roughness.jpeg using Guid(574fc4b802a8c7749ab2c00c25d04175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4c8c2b5e22f357c980b0f007e82eaa') in 0.012816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/chest/textures/M_Chest_Wood_metallic.jpeg
+  artifactKey: Guid(19ab97d7a630ac2419d4448e8d394365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chest/textures/M_Chest_Wood_metallic.jpeg using Guid(19ab97d7a630ac2419d4448e8d394365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141510cfee7ce3e88b6579ad42eefec1') in 0.006916 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
