@@ -100,7 +100,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f0008ee9b2639a842a5123f3d9aa8136,
         type: 3}
       propertyPath: m_Name
-      value: Chest
+      value: Chest Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4606910993440540684, guid: f0008ee9b2639a842a5123f3d9aa8136,
         type: 3}
@@ -139,3 +139,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0008ee9b2639a842a5123f3d9aa8136, type: 3}
+--- !u!1 &6338826750952261942 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f0008ee9b2639a842a5123f3d9aa8136,
+    type: 3}
+  m_PrefabInstance: {fileID: 6573391274987877479}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &-3275085099293854705
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6338826750952261942}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7d736dbc1260cb943bc668b28bedc27f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
